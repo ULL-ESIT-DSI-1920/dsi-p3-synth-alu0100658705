@@ -1,0 +1,39 @@
+{
+  "name": "dsi-p3-synth-alu0100658705",
+  "version": "1.0.0",
+  "description": "Práctica 3 DSI",
+  "main": "index.js",
+  "dependencies": {
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-bundle-visualiser": "^1.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "gh-pages": "^2.2.0",
+    "prettier": "^2.0.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rm -rf dist package-lock.json node_modules",
+    "start": "npx parcel ./src/index.html --port 8080",
+    "build": "parcel build ./src/index.html --public-url /dsi-p1-parcel-alu0100658705/ -d build",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ULL-ESIT-DSI-1920/dsi-p3-synth-alu0100658705.git"
+  },
+  "author": "Pablo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ULL-ESIT-DSI-1920/dsi-p3-synth-alu0100658705/issues"
+  },
+  "homepage": "https://github.com/ULL-ESIT-DSI-1920/dsi-p3-synth-alu0100658705#readme"
+}
