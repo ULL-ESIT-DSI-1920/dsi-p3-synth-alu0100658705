@@ -23,7 +23,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rm -rf dist package-lock.json node_modules",
     "start": "npx parcel ./src/index.html --port 8080",
-    "build": "parcel build ./src/index.html --public-url /dsi-p1-parcel-alu0100658705/ -d build",
+    "build": "parcel build ./src/index.html --public-url /dsi-p3-synth-alu0100658705/ -d build",
     "deploy": "gh-pages -d build"
   },
   "repository": {
